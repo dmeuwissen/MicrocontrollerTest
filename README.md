@@ -21,3 +21,10 @@ De stack.
 Iedere thread heeft een eigen stack.
 # Wat is in dit kader een racing condition? Hoe zou je dit kunnen voorkomen?
 Een racing condition is dat twee verschillende threads proberen hetzelfde object aan te passen. Dit kan opgelost worden doormiddel van een lock.
+
+#Bronnen
+- https://stackoverflow.com/questions/34510/what-is-a-race-condition
+- https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
+- https://stackoverflow.com/questions/1665419/do-threads-have-a-distinct-heap
+- https://techacademy.id.nl/blog/wat-is-multithreading-en-wat-heb-je-er-aan/
+- https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)
